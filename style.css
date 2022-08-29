@@ -33,10 +33,6 @@
   color: white;
 }
 
-.left-padding {
-  padding-left: 10%;
-}
-
 .font-weight {
   font-weight: 500;
   letter-spacing: 0cm;
@@ -44,8 +40,11 @@
 }
 
 #section-1 h1 {
-  margin-top: 100px;
-  font-size: 60px;
+  margin-top: 140px;
+}
+
+.h-title {
+  font-size: 72px;
 }
 
 .section-1-img {
@@ -56,4 +55,60 @@
   position: absolute;
   top: 10%;
   right: 10.5%;
+}
+
+#section-2 .back-color {
+  background: rgba(0, 111, 249, 0.04);
+}
+
+#section-3 p li {
+  color: #605E5C;
+}
+
+#section-3 h2 {
+  background: #EEFAFF;
+  border-radius: 12px 12px 0px 0px;
+  color: #006FF9;
+}
+
+#section-3 .box-shadow-class {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 10px;
+}
+
+#section-4 .row {
+  position: relative;
+}
+
+#section-4 .card {
+  position: absolute;
+  top: 20%;
+  bottom: 30%;
+  left: 50%;
+  right: 20%;
+  width: 30%;
+  border: none;
+}
+
+
+@media(max-width:1200px) {
+  .h-title {
+    font-size: 56px;
+  }
+
+  #section-1 p,
+  #section-3 .description {
+    font-size: 15px;
+  }
+}
+
+@media(max-width:992px) {
+  .h-title {
+    font-size: 44px;
+  }
 }
