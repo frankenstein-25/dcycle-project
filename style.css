@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'inter';
+}
+
+#header .nav-link {
+  transition: all 0.2s;
+}
+
+#header .nav-link:hover,
+#header .nav-link:active {
+  background-color: #3077E7;
+  ;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.font-color {
+  color: #006FF9;
+}
+
+.button-color {
+  background-color: #3077E7;
+  color: white;
+}
+
+.button-color:hover {
+  opacity: 0.8;
+  background-color: #3077E7;
+  ;
+  color: white;
+}
+
+.left-padding {
+  padding-left: 10%;
+}
+
+.font-weight {
+  font-weight: 500;
+  letter-spacing: 0cm;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#section-1 h1 {
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+.section-1-img {
+  position: relative;
+}
+
+.overlap-img {
+  position: absolute;
+  top: 10%;
+  right: 10.5%;
+}
