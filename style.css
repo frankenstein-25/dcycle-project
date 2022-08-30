@@ -65,6 +65,14 @@
   font-size: 18px;
 }
 
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
 .font-color {
   color: #006FF9;
 }
@@ -109,7 +117,8 @@
 
 .section-1-img,
 .section-2-img,
-#section-5 {
+#section-5,
+#section-11 .overlap-8 {
   position: relative;
 }
 
@@ -239,6 +248,25 @@
 #section-9 .row {
   background-color: #006FF9;
   ;
+}
+
+#section-11 ul li a:hover {
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #006FF9 !important;
+  transition: all 0.2s;
+}
+
+#section-11 ::placeholder {
+  color: #006FF9;
+}
+
+#section-11 button {
+  position: absolute;
+  right: 2%;
+  top: -50%;
+
 }
 
 @media(max-width:1400px) {
