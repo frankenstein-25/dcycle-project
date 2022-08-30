@@ -118,7 +118,6 @@
 
 .section-1-img,
 .section-2-img,
-#section-5 .container-fluid,
 #section-11 .overlap-8,
 #section-2 .overlap-img-class {
   position: relative;
@@ -127,37 +126,28 @@
 .overlap-img-1 {
   position: absolute;
   top: 4%;
-  right: 25%;
   left: 66%;
-  bottom: 95%;
 }
 
 .overlap-img-2 {
   position: absolute;
   top: 66%;
-  right: 14%;
   left: 70%;
-  bottom: 30%;
 }
 
 .overlap-img-3 {
   z-index: -99;
   position: absolute;
   top: 78%;
-  right: 85%;
   left: 5%;
-  bottom: 20%;
 }
 
 .overlap-img-4 {
   z-index: -99;
   position: absolute;
   top: 82%;
-  right: 65%;
   left: -100%;
 }
-
-
 
 #section-2 .back-color {
   background: rgba(0, 111, 249, 0.04);
@@ -166,9 +156,10 @@
 .overlap-img-5 {
   z-index: -99;
   position: absolute;
-  top: 90%;
-  right: -10%;
-  left: 83%;
+  top: 100%;
+  left: 80%;
+  transform: translate(50%, -50%);
+  overflow: hidden;
 }
 
 #section-2 .row {
@@ -177,6 +168,7 @@
 
 #section-3 {
   margin-top: 100px;
+  margin-bottom: 120px;
 }
 
 #section-3 p li {
@@ -203,8 +195,8 @@
   position: absolute;
   z-index: -1;
   top: -50%;
-  right: -8%;
   left: 80%;
+  transform: translateX(30%);
 }
 
 #section-4 {
@@ -218,26 +210,36 @@
 
 #section-5 {
   background-color: #006FF9;
+  position: relative;
 }
+
 
 #section-5 .row {
   padding-top: 50px;
 }
 
-.overlap-img-6 {
-  position: absolute;
-  z-index: -1;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+#section-5>* {
+  position: relative;
 }
 
-.overlap-img-7 {
+#section-5 .overlap-img-6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#section-5 .overlap-img-7 {
   position: absolute;
   top: 60%;
-  right: 0%;
   left: 90%;
-  bottom: 10%;
+}
+
+#section-5 .overlap-img-9 {
+  position: absolute;
+  top: 73%;
+  left: 0;
+  transform: translate(0%, -50%);
 }
 
 #section-7 {
@@ -245,21 +247,22 @@
 }
 
 #section-7 .icon-img {
+  display: flex;
+  width: 105px;
+  height: 105px;
   background-color: #006FF9;
   border: none;
   border-radius: 50%;
-  padding: 20px 25px;
+  align-items: center;
+  justify-content: center;
 }
 
-#section-7 .icon-img1 {
-  padding: 24px 26px;
-}
-
-#section-7 .icon-img2 {
-  padding: 31.5px 38px;
-}
 
 #section-9 .row {
+  background-color: #006FF9;
+}
+
+#section-11 {
   background-color: #006FF9;
 }
 
@@ -277,8 +280,12 @@
 
 #section-11 button {
   position: absolute;
-  right: 2%;
+  right: 1%;
   top: -50%;
+}
+
+#section-11 .input-padding {
+  padding-right: 65px;
 }
 
 @media(max-width:1400px) {
@@ -419,6 +426,11 @@
 
 @media(max-width:991px) {
 
+  #section-11 .input-class {
+    display: flex;
+    flex-direction: column;
+  }
+
   .font-size-80 {
     font-size: 60px;
   }
@@ -523,6 +535,10 @@
     text-align: center;
   }
 
+  #section-11 .input-padding {
+    max-width: 100%;
+  }
+
   .font-size-80 {
     font-size: 44px;
   }
@@ -545,5 +561,10 @@
 
   .font-size-20 {
     font-size: 15px;
+  }
+
+  .overlap-img-5 {
+    left: 80%;
+    transform: translate(25%, -50%);
   }
 }
