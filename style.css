@@ -146,11 +146,16 @@
   z-index: -99;
   position: absolute;
   top: 82%;
-  left: -100%;
+  right: 65%;
+  width: 130%;
 }
 
 #section-2 .back-color {
   background: rgba(0, 111, 249, 0.04);
+}
+
+#section-2 {
+  overflow: hidden;
 }
 
 .overlap-img-5 {
@@ -159,7 +164,7 @@
   top: 100%;
   left: 80%;
   transform: translate(50%, -50%);
-  overflow: hidden;
+
 }
 
 #section-2 .row {
@@ -248,8 +253,8 @@
 
 #section-7 .icon-img {
   display: flex;
-  width: 105px;
-  height: 105px;
+  width: 85px;
+  height: 85px;
   background-color: #006FF9;
   border: none;
   border-radius: 50%;
@@ -266,9 +271,12 @@
   background-color: #006FF9;
 }
 
+#section-11 ul li a {
+  border-radius: 25px;
+}
+
 #section-11 ul li a:hover {
   background-color: white;
-  border-radius: 25px;
   padding: 10px 20px;
   color: #006FF9 !important;
   transition: all 0.2s;
@@ -281,11 +289,12 @@
 #section-11 button {
   position: absolute;
   right: 1%;
-  top: -50%;
+  top: -92%;
+  padding: 17px;
 }
 
 #section-11 .input-padding {
-  padding-right: 65px;
+  padding: 18px 65px 18px 40px;
 }
 
 @media(max-width:1400px) {
@@ -355,6 +364,10 @@
 
 
 @media(max-width:1200px) {
+  .overlap-img-4 {
+    top: 70%
+  }
+
   .font-size-80 {
     font-size: 66px;
   }
@@ -425,6 +438,13 @@
 }
 
 @media(max-width:991px) {
+  .overlap-img-4 {
+    top: 80%
+  }
+
+  .input-padding {
+    margin-top: 25px;
+  }
 
   #section-11 .input-class {
     display: flex;
