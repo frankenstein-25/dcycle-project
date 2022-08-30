@@ -33,6 +33,10 @@
   font-size: 50px;
 }
 
+.font-size-30 {
+  font-size: 30px;
+}
+
 .font-size-28 {
   font-size: 28px;
 }
@@ -197,6 +201,10 @@
   bottom: 10%;
 }
 
+#section-7 {
+  background: rgba(0, 111, 249, 0.04);
+}
+
 #section-7 .icon-img {
   background-color: #006FF9;
   border: none;
@@ -294,5 +302,11 @@
 
   .font-size-24 {
     font-size: 20px;
+  }
+}
+
+@media(max-width:576px) {
+  .text-align-center {
+    text-align: center;
   }
 }
