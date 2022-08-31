@@ -2,6 +2,7 @@
 
 * {
   font-family: 'inter';
+  /* border: 1px solid rebeccapurple; */
 }
 
 #header .nav-link {
@@ -128,6 +129,10 @@
 #section-11 .overlap-8,
 #section-2 .overlap-img-class {
   position: relative;
+}
+
+.section-1-img {
+  overflow: hidden;
 }
 
 .overlap-img-1 {
@@ -609,8 +614,12 @@
     text-align: center;
   }
 
+  #section-11 .input-width {
+    width: 100% !important;
+  }
+
   #section-11 .input-padding {
-    max-width: 100%;
+    width: inherit;
   }
 
   .font-size-80 {
