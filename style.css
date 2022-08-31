@@ -247,6 +247,22 @@
   transform: translate(0%, -50%);
 }
 
+#section-5 .overlap-img-10 {
+  position: absolute;
+  top: 76%;
+  left: 11%;
+  transform: translate(-40%, -50%);
+  max-width: 100%;
+}
+
+#section-5 .overlap-img-11 {
+  position: absolute;
+  top: 85%;
+  right: 8%;
+  transform: translate(-10%, -10%);
+  max-width: 100%;
+}
+
 #section-7 {
   background: rgba(0, 111, 249, 0.04);
 }
@@ -522,7 +538,7 @@
 
 @media(max-width:767px) {
   .font-size-80 {
-    font-size: 52px;
+    font-size: 48px;
   }
 
   .font-size-72 {
@@ -560,11 +576,15 @@
   }
 
   .font-size-80 {
-    font-size: 44px;
+    font-size: 38px;
   }
 
   .font-size-72 {
     font-size: 38px;
+  }
+
+  .font-size-70 {
+    font-size: 36px;
   }
 
   .font-size-32 {
