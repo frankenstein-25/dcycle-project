@@ -8,13 +8,14 @@
 #header .nav-link {
   transition: all 0.2s;
   padding: 10px 15px;
+  border-radius: 25px;
+  transition: all 0.3s;
 }
 
 #header .nav-link:hover {
   background-color: #006FF9;
   color: #EEFAFF;
 
-  border-radius: 25px;
 }
 
 .font-size-80 {
@@ -308,6 +309,7 @@
 
 #section-11 ul li a {
   padding: 10px 15px;
+  transition: all 0.3s;
 }
 
 #section-11 ul li a:hover {
@@ -545,6 +547,10 @@
 
   .font-size-20 {
     font-size: 19px;
+  }
+
+  .font-size-18 {
+    font-size: 16px;
   }
 
   .font-size-16 {
