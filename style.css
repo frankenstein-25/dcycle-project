@@ -7,21 +7,14 @@
 
 #header .nav-link {
   transition: all 0.2s;
+  padding: 10px 15px;
 }
 
-#header ul li a.active {
-  background-color: #3077E7;
-  padding: 10px 20px;
-  color: white !important;
+#header .nav-link:hover {
+  background-color: #006FF9;
+  color: #EEFAFF;
+
   border-radius: 25px;
-
-}
-
-#header .nav-link:hover,
-#header .nav-link:active {
-  color: blue;
-  opacity: 0.8;
-
 }
 
 .font-size-80 {
@@ -314,17 +307,14 @@
   transition: all 0.2s;
 }
 
-#section-11 ul li a.active {
-  background-color: white;
-  padding: 10px 20px;
-  color: #3077E7 !important;
-  border-radius: 25px;
-
+#section-11 ul li a {
+  padding: 10px 15px;
 }
 
 #section-11 ul li a:hover {
-  color: black !important;
-  opacity: 0.7;
+  background-color: #EEFAFF;
+  color: #006FF9 !important;
+  border-radius: 25px;
 }
 
 #section-11 ::placeholder {
@@ -334,8 +324,14 @@
 #section-11 button {
   position: absolute;
   right: 1%;
-  top: -92%;
+  top: -50%;
+  transform: translate(2%, 53%);
   padding: 17px;
+}
+
+#section-11 .input-width {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #section-11 .input-padding {
@@ -615,7 +611,7 @@
   }
 
   #section-11 .input-width {
-    width: 100% !important;
+    width: 100%;
   }
 
   #section-11 .input-padding {
