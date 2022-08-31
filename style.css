@@ -8,12 +8,19 @@
   transition: all 0.2s;
 }
 
+#header ul li a.active {
+  background-color: #3077E7;
+  padding: 10px 20px;
+  color: white !important;
+  border-radius: 25px;
+
+}
+
 #header .nav-link:hover,
 #header .nav-link:active {
-  background-color: #3077E7;
-  padding: 8px 20px;
-  border-radius: 20px;
-  color: white;
+  color: blue;
+  opacity: 0.8;
+
 }
 
 .font-size-80 {
@@ -127,12 +134,17 @@
   position: absolute;
   top: 4%;
   left: 66%;
+  animation: mymove 10s infinite;
+  /* animation-direction: reverse; */
 }
+
+
 
 .overlap-img-2 {
   position: absolute;
   top: 66%;
   left: 70%;
+  animation: mymove 3s infinite;
 }
 
 .overlap-img-3 {
@@ -161,9 +173,11 @@
 .overlap-img-5 {
   z-index: -99;
   position: absolute;
-  top: 100%;
-  left: 80%;
-  transform: translate(50%, -50%);
+  top: 90%;
+  right: -10%;
+  max-width: 80%;
+  /* transform: translate(50%, -50%); */
+  animation: mymove 3s infinite;
 
 }
 
@@ -186,6 +200,7 @@
   color: #006FF9;
 }
 
+
 #section-3 .box-shadow-class {
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
     0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
@@ -194,6 +209,7 @@
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
   border-radius: 10px;
+  min-height: inherit !important;
 }
 
 .overlap-img-8 {
@@ -211,6 +227,7 @@
 #section-4 .main-content {
   margin-top: 8%;
   margin-bottom: 8%;
+  max-width: 712px;
 }
 
 #section-5 {
@@ -288,14 +305,21 @@
 }
 
 #section-11 ul li a {
+
+  transition: all 0.2s;
+}
+
+#section-11 ul li a.active {
+  background-color: white;
+  padding: 10px 20px;
+  color: #3077E7 !important;
   border-radius: 25px;
+
 }
 
 #section-11 ul li a:hover {
-  background-color: white;
-  padding: 10px 20px;
-  color: #006FF9 !important;
-  transition: all 0.2s;
+  color: black !important;
+  opacity: 0.7;
 }
 
 #section-11 ::placeholder {
@@ -311,6 +335,16 @@
 
 #section-11 .input-padding {
   padding: 18px 65px 18px 40px;
+}
+
+@keyframes mymove {
+  /* form {
+    transform: rotate(0deg);
+  } */
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media(max-width:1400px) {
@@ -549,6 +583,10 @@
     font-size: 42px;
   }
 
+  .font-size-54 {
+    font-size: 40px;
+  }
+
   .font-size-32 {
     font-size: 22px;
   }
@@ -587,8 +625,12 @@
     font-size: 36px;
   }
 
+  .font-size-54 {
+    font-size: 36px;
+  }
+
   .font-size-32 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .font-size-24 {
