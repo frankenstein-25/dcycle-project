@@ -90,6 +90,14 @@
   display: inline-block;
 }
 
+#section-1 .select-item-text {
+  padding-right: 60px;
+}
+
+#section-1 .form-select {
+  background-position: right 2rem center;
+}
+
 #section-1 .section-1-file-input {
   display: flex;
   align-items: center;
