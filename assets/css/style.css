@@ -104,7 +104,6 @@
 }
 
 #section-1 .section-1-file-input {
-  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -302,6 +301,11 @@
 
   .padding-class {
     padding-left: 10px;
+  }
+
+  #section-1 .file-input {
+    max-width: 100%;
+    margin-bottom: 15px;
   }
 }
 
