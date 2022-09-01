@@ -104,7 +104,7 @@
 
 #section-1 .section-1-file-input {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
 }
 
@@ -227,6 +227,10 @@
     font-size: 44px;
   }
 
+  #section-1 .section-1-file-input {
+    align-items: center;
+  }
+
 }
 
 
@@ -262,6 +266,11 @@
     font-size: 48px;
   }
 
+  #section-1 .section-1-file-input {
+    align-items: baseline;
+  }
+
+
 }
 
 @media (max-width:768px) {
@@ -279,6 +288,10 @@
 
   .font-size-54 {
     font-size: 42px;
+  }
+
+  #section-1 .section-1-file-input {
+    align-items: center;
   }
 
 }
