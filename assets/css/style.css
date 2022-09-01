@@ -35,6 +35,10 @@
   font-size: 54px;
 }
 
+.font-weight-600 {
+  font-weight: 600;
+}
+
 #header ul li a.active {
   display: inline-block;
   background-color: #3077E7;
