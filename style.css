@@ -310,12 +310,12 @@
 #section-11 ul li a {
   padding: 10px 15px;
   transition: all 0.3s;
+  border-radius: 25px;
 }
 
 #section-11 ul li a:hover {
   background-color: #EEFAFF;
   color: #006FF9 !important;
-  border-radius: 25px;
 }
 
 #section-11 ::placeholder {
