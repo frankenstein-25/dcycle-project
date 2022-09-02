@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: 'inter'; }
+
+.font-size-80 {
+  font-size: 80px; }
+
+.font-size-72 {
+  font-size: 72px; }
+
+.font-size-70 {
+  font-size: 70px; }
+
+.font-size-54 {
+  font-size: 54px; }
+
+.font-size-50 {
+  font-size: 50px; }
+
+.font-size-40 {
+  font-size: 40px; }
+
+.font-size-32 {
+  font-size: 32px; }
+
+.font-size-30 {
+  font-size: 30px; }
+
+.font-size-28 {
+  font-size: 28px; }
+
+.font-size-24 {
+  font-size: 24px; }
+
+.font-size-22 {
+  font-size: 22px; }
+
+.font-size-20 {
+  font-size: 20px; }
+
+.font-size-18 {
+  font-size: 18px; }
+
+.font-size-16 {
+  font-size: 16px; }
+
+.font-size-14 {
+  font-size: 14px; }
+
+.button-color {
+  background-color: #3077E7;
+  color: white; }
+  .button-color:hover {
+    opacity: 0.8;
+    background-color: #3077E7;
+    color: white; }
+
+#header .nav-link {
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: all 0.3s; }
+  #header .nav-link:hover {
+    background-color: #3077E7;
+    color: #EEFAFF; }
+
+#section-1 h1 {
+  margin-top: 140px; }
+  #section-1 h1 span {
+    color: #3077E7; }
+#section-1 .font-weight {
+  font-weight: 500;
+  letter-spacing: 0cm;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+#section-1 .section-1-img {
+  position: relative;
+  overflow: hidden; }
+#section-1 .overlap-img-1 {
+  position: absolute;
+  top: 4%;
+  left: 66%;
+  animation: mymove 10s infinite; }
+#section-1 .overlap-img-2 {
+  position: absolute;
+  top: 66%;
+  left: 70%;
+  animation: mymove 3s infinite; }
+#section-1 .overlap-img-3 {
+  position: absolute;
+  top: 78%;
+  left: 5%; }
+#section-1 .overlap-img-4 {
+  position: absolute;
+  top: 82%;
+  right: 65%;
+  z-index: -1;
+  width: 130%; }
+
+#section-2 {
+  overflow: hidden; }
+  #section-2 .row {
+    padding-bottom: 70px; }
+  #section-2 .back-color {
+    background: rgba(0, 111, 249, 0.04); }
+  #section-2 .section-2-img {
+    position: relative; }
+  #section-2 .overlap-img-5 {
+    position: absolute;
+    top: 90%;
+    right: -10%;
+    z-index: -1;
+    max-width: 80%;
+    animation: mymove 3s infinite; }
+  #section-2 .overlap-img-class {
+    position: relative; }
+  #section-2 .overlap-img-8 {
+    position: absolute;
+    top: -50%;
+    left: 80%;
+    transform: translateX(30%); }
+
+#section-3 {
+  margin-top: 100px;
+  margin-bottom: 120px; }
+  #section-3 .box-shadow-class {
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 10px;
+    min-height: inherit !important; }
+    #section-3 .box-shadow-class li {
+      color: #605E5C; }
+    #section-3 .box-shadow-class h2 {
+      background: #EEFAFF;
+      border-radius: 12px 12px 0px 0px;
+      color: #3077E7; }
+
+#section-4 {
+  background-image: url("/image/image 2.png"); }
+  #section-4 .main-content {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    max-width: 712px; }
+
+#section-5 {
+  background-color: #3077E7;
+  position: relative; }
+  #section-5 > * {
+    position: relative; }
+  #section-5 .overlap-img-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #section-5 .overlap-img-7 {
+    position: absolute;
+    top: 60%;
+    left: 90%; }
+  #section-5 .overlap-img-9 {
+    position: absolute;
+    top: 73%;
+    left: 0;
+    transform: translate(0%, -50%); }
+  #section-5 .overlap-img-10 {
+    position: absolute;
+    top: 76%;
+    left: 11%;
+    transform: translate(-40%, -50%);
+    max-width: 100%; }
+  #section-5 .overlap-img-11 {
+    position: absolute;
+    top: 85%;
+    right: 8%;
+    z-index: -1;
+    transform: translate(-10%, -10%);
+    max-width: 100%; }
+  #section-5 .row {
+    padding-top: 50px; }
+
+#section-7 {
+  background: rgba(0, 111, 249, 0.04); }
+  #section-7 .icon-img {
+    display: flex;
+    width: 85px;
+    height: 85px;
+    background-color: #3077E7;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center; }
+
+#section-9 .row {
+  background-color: #3077E7; }
+  #section-9 .row .button-color {
+    background-color: white;
+    color: #006FF9;
+    padding: 10px 20px;
+    border-radius: 35px; }
+
+#section-11 {
+  background-color: #3077E7; }
+  #section-11::placeholder {
+    color: #3077E7; }
+  #section-11 form .input-width {
+    padding: 20px 0 20px 0;
+    position: relative; }
+    #section-11 form .input-width .input-padding {
+      padding: 0 70px 0 40px;
+      height: 64px; }
+    #section-11 form .input-width .button-class {
+      position: absolute;
+      top: -50%;
+      right: 1%;
+      z-index: -1;
+      z-index: 1;
+      transform: translateY(50%);
+      height: 60px;
+      width: 60px; }
+  #section-11 li a {
+    padding: 10px 15px;
+    transition: all 0.3s;
+    border-radius: 25px; }
+    #section-11 li a:hover {
+      background-color: #EEFAFF;
+      color: #3077E7 !important; }
+
+@keyframes mymove {
+  to {
+    transform: rotate(360deg); } }
+@media (max-width: 1400px) {
+  .font-size-80 {
+    font-size: 68px; }
+
+  .font-size-72 {
+    font-size: 60px; }
+
+  .font-size-70 {
+    font-size: 58px; }
+
+  .font-size-54 {
+    font-size: 48px; }
+
+  .font-size-50 {
+    font-size: 44px; }
+
+  .font-size-40 {
+    font-size: 36px; }
+
+  .font-size-32 {
+    font-size: 29px; }
+
+  .font-size-30 {
+    font-size: 28px; }
+
+  .font-size-28 {
+    font-size: 26px; }
+
+  .font-size-24 {
+    font-size: 22px; }
+
+  .font-size-22 {
+    font-size: 21px; }
+
+  .font-size-20 {
+    font-size: 19px; }
+
+  .font-size-16 {
+    font-size: 16px; }
+
+  .font-size-14 {
+    font-size: 14px; } }
+@media (max-width: 1200px) {
+  .font-size-80 {
+    font-size: 66px; }
+
+  .font-size-72 {
+    font-size: 54px; }
+
+  .font-size-70 {
+    font-size: 52px; }
+
+  .font-size-54 {
+    font-size: 46px; }
+
+  .font-size-30 {
+    font-size: 28px; }
+
+  .font-size-50 {
+    font-size: 36px; }
+
+  .font-size-40 {
+    font-size: 32px; }
+
+  .font-size-32 {
+    font-size: 24px; }
+
+  .font-size-28 {
+    font-size: 24px; }
+
+  .font-size-24 {
+    font-size: 20px; }
+
+  .font-size-22 {
+    font-size: 19px; }
+
+  .font-size-20 {
+    font-size: 18px; }
+
+  .font-size-16 {
+    font-size: 15px; }
+
+  .font-size-14 {
+    font-size: 14px; }
+
+  .overlap-img-2 {
+    top: 58%; }
+
+  .overlap-img-3 {
+    top: 68%; }
+
+  .overlap-img-4 {
+    top: 70%; } }
+@media (max-width: 991px) {
+  .overlap-img-4 {
+    top: 80%; }
+
+  #section-11 .input-class {
+    display: flex;
+    flex-direction: column; }
+    #section-11 .input-class .input-padding {
+      margin-top: 25px; }
+
+  .font-size-80 {
+    font-size: 60px; }
+
+  .font-size-72 {
+    font-size: 58px; }
+
+  .font-size-70 {
+    font-size: 56px; }
+
+  .font-size-54 {
+    font-size: 46px; }
+
+  .font-size-50 {
+    font-size: 42px; }
+
+  .font-size-40 {
+    font-size: 34px; }
+
+  .font-size-32 {
+    font-size: 28px; }
+
+  .font-size-30 {
+    font-size: 26px; }
+
+  .font-size-28 {
+    font-size: 24px; }
+
+  .font-size-24 {
+    font-size: 22px; }
+
+  .font-size-22 {
+    font-size: 20px; }
+
+  .font-size-20 {
+    font-size: 19px; }
+
+  .font-size-18 {
+    font-size: 16px; }
+
+  .font-size-16 {
+    font-size: 16px; }
+
+  .font-size-14 {
+    font-size: 14px; }
+
+  .overlap-img-2 {
+    top: 68%; }
+
+  .overlap-img-3 {
+    top: 78%; } }
+@media (max-width: 767px) {
+  .font-size-80 {
+    font-size: 48px; }
+
+  .font-size-72 {
+    font-size: 44px; }
+
+  .font-size-70 {
+    font-size: 42px; }
+
+  .font-size-54 {
+    font-size: 40px; }
+
+  .font-size-32 {
+    font-size: 22px; }
+
+  .font-size-24 {
+    font-size: 20px; }
+
+  .font-size-22 {
+    font-size: 18px; }
+
+  .font-size-20 {
+    font-size: 17px; } }
+@media (max-width: 576px) {
+  .text-align-center {
+    text-align: center; }
+
+  #section-11 .input-width {
+    width: 100%; }
+    #section-11 .input-width .input-padding {
+      width: inherit; }
+
+  .font-size-80 {
+    font-size: 38px; }
+
+  .font-size-72 {
+    font-size: 38px; }
+
+  .font-size-70 {
+    font-size: 36px; }
+
+  .font-size-54 {
+    font-size: 36px; }
+
+  .font-size-32 {
+    font-size: 24px; }
+
+  .font-size-24 {
+    font-size: 18px; }
+
+  .font-size-22 {
+    font-size: 16px; }
+
+  .font-size-20 {
+    font-size: 15px; }
+
+  .overlap-img-5 {
+    left: 80%;
+    transform: translate(25%, -50%); } }
+
+/*# sourceMappingURL=new-style.css.map */
