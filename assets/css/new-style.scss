@@ -139,6 +139,13 @@ $gray-clr:#828282;
 
   .button-class {
     padding: 15px;
+    background-color: $blue-clg;
+    color: white;
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .card-body {
