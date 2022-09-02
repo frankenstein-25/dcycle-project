@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 * {
   font-family: 'inter'; }
+  *::selection {
+    text-shadow: 3px 3px 5px red; }
 
 .font-size-80 {
   font-size: 80px; }
@@ -55,13 +57,15 @@
     background-color: #3077E7;
     color: white; }
 
-#header .nav-link {
-  padding: 10px 15px;
-  border-radius: 25px;
-  transition: all 0.3s; }
-  #header .nav-link:hover {
-    background-color: #3077E7;
-    color: #EEFAFF; }
+#header li {
+  text-align: center; }
+  #header li .nav-link {
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s; }
+    #header li .nav-link:hover {
+      background-color: #3077E7;
+      color: #EEFAFF; }
 
 #section-1 h1 {
   margin-top: 140px; }
@@ -87,7 +91,8 @@
 #section-1 .overlap-img-3 {
   position: absolute;
   top: 78%;
-  left: 5%; }
+  left: 5%;
+  z-index: -1; }
 #section-1 .overlap-img-4 {
   position: absolute;
   top: 82%;
@@ -317,7 +322,7 @@
 
   .overlap-img-4 {
     top: 70%; } }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .overlap-img-4 {
     top: 80%; }
 

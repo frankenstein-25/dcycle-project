@@ -62,11 +62,15 @@ $gray-clr:#828282;
 
 #header {
   li {
+    text-align: center;
+
+    a {
+      padding: 10px 15px;
+    }
+
     .active {
-      display: inline-block;
       background-color: $blue-clg;
       color: white;
-      padding: 10px 20px;
       border-radius: 25px;
 
       &:hover {
@@ -195,7 +199,7 @@ $gray-clr:#828282;
       @include height-width(34px, 60px);
       background-color: $blue-clg;
       top: -100%;
-      transform: translateY(40%);
+      transform: translateY(36%);
       right: 10px;
       width: 60px;
     }
